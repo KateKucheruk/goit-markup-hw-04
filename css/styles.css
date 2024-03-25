@@ -117,13 +117,6 @@ a {
   background: #f4f4fd;
 }
 
-.section-three-img {
-  background: #ffffff;
-}
-
-.section-three-img-listen {
-}
-
 .section-three-title-one {
   font-weight: 700;
   font-size: 36px;
@@ -147,6 +140,10 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.section-three-img-listen {
+  background: #ffffff;
 }
 
 .section-four {
