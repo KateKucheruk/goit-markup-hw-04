@@ -253,12 +253,13 @@ p h1 h2 h3 {
 .section-four-listen {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 32px;
-  width: calc((100% - 2 * 24px) / 3);
+  gap: 48px 24px;
 }
 
 .section-four-listen-wrap {
+  width: calc((100% - 2 * 24px) / 3);`
+}
+.section-four-paragraph-title {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
@@ -272,6 +273,8 @@ p h1 h2 h3 {
   color: #2e2f42;
   display: flex;
   justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .section-four-paragraph {
@@ -281,6 +284,7 @@ p h1 h2 h3 {
   color: #434455;
   display: flex;
   justify-content: center;
+  padding-bottom: 32px;
 }
 
 .section-footer {
