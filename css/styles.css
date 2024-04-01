@@ -43,6 +43,7 @@ p h1 h2 h3 {
 .header-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .nav-logo {
@@ -84,6 +85,7 @@ p h1 h2 h3 {
 .address {
   font-style: normal;
   margin-left: auto;
+  padding: 24px 0;
 }
 
 .addres-list-link {
@@ -149,7 +151,16 @@ p h1 h2 h3 {
 }
 
 .visually-hidden {
-  visibility: hidden;
+   position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .section-two {
@@ -306,6 +317,7 @@ p h1 h2 h3 {
   color: #4d5ae5;
   margin-right: 76px;
 }
+
 .nav-logo-part-two {
   color: #f4f4fd;
   display: inline-block;
