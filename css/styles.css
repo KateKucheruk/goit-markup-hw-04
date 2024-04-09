@@ -35,10 +35,13 @@ img {
   margin: 0 auto;
 }
 
+/* -------------------------HEADER-------------------------- */
+
 .header {
   border-bottom: 1px solid #e7e9fc;
   align-items: center;
-  box-shadow: 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+  box-shadow: 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -89,24 +92,24 @@ img {
 }
 
 .current {
-position: relative;
-color: #404bbf;
+  position: relative;
+  color: #404bbf;
 }
 
 .current::after {
-content: "";
-position: absolute;
-left: 0;
-bottom: -1px;
-border-radius: 2px;
-width: 100%;
-height: 4px;
-background: #404bbf;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  border-radius: 2px;
+  width: 100%;
+  height: 4px;
+  background: #404bbf;
 }
 
 .address {
-font-style: normal;
-margin-left: auto;
+  font-style: normal;
+  margin-left: auto;
 }
 
 .addres-list-link {
@@ -136,7 +139,11 @@ margin-left: auto;
   padding-bottom: 188px;
   margin: 0 auto;
   max-width: 1440px;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1-2.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office1-2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -180,7 +187,7 @@ margin-left: auto;
 }
 
 .visually-hidden {
-   position: absolute;
+  position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -263,7 +270,7 @@ margin-left: auto;
   background: #ffffff;
   border-radius: 0 0 4px 4px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-  0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08); 
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .section-three-paragraph-title {
@@ -304,7 +311,7 @@ margin-left: auto;
 
 .icon-link {
   width: 100%;
-  height: 100%; 
+  height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
@@ -351,17 +358,19 @@ margin-left: auto;
 }
 
 .section-four-cover-text {
-position: absolute;
-top: 0;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
-background-color: #4d5ae5;
-height: 100%;
-padding: 40px 32px;
-transform: translateY(100%);
-transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  background-color: #4d5ae5;
+  height: 100%;
+  width: 100%;
+  padding: 40px 32px;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-four-listen {
@@ -372,11 +381,12 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .section-four-listen-wrap {
   width: calc((100% - 2 * 24px) / 3);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); `
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .section-four-listen-wrap:hover {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .section-four-paragraph-title {
@@ -397,18 +407,18 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .section-four-paragraph {
   font-size: 16px;
-  line-height: 1.5; 
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
 .section-footer {
   background: #2e2f42;
-  padding: 100px 0
+  padding: 100px 0;
 }
 
 .nav-logo-two {
-  display: inline-block; 
+  display: inline-block;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -428,12 +438,12 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container-two {
-display: flex;
-align-items: baseline;
+  display: flex;
+  align-items: baseline;
 }
 
-.section-footer-list{
-margin-right: 120px;
+.section-footer-list {
+  margin-right: 120px;
 }
 
 .footer-paragraph {
@@ -445,13 +455,13 @@ margin-right: 120px;
 }
 
 .footer-paragraph-two {
-font-family: var(--font-family);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #fff;
-margin-bottom: 16px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
 }
 
 .list-icon {
@@ -467,7 +477,7 @@ margin-bottom: 16px;
 
 .link-two {
   width: 100%;
-  height: 100%; 
+  height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
@@ -478,7 +488,7 @@ margin-bottom: 16px;
 
 .link-two:hover,
 .link-two:focus {
-background-color: #31d0aa; 
+  background-color: #31d0aa;
 }
 
 .icon {
